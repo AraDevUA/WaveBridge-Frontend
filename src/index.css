@@ -1,0 +1,25 @@
+:root {
+  --color-primary: rgb(235, 231, 218);
+  --color-primary-contrast: rgb(18, 9, 23);
+  --color-secondary: rgb(82, 74, 79);
+  --color-bg-default: rgb(18, 9, 23);
+  --color-bg-paper: rgb(30, 20, 35);
+  --color-text-primary: rgb(235, 231, 218);
+  --color-text-secondary: rgba(235, 231, 218, 0.72);
+  --color-divider: rgba(235, 231, 218, 0.14);
+  --color-error: #ff8d8d;
+}
+
+html,
+body,
+#root {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+a {
+  color: inherit;
+}

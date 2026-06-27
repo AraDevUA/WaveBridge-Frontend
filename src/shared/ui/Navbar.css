@@ -1,0 +1,82 @@
+.navbar {
+  background: var(--color-bg-default);
+  border-bottom: 1px solid var(--color-divider);
+}
+
+.navbar__toolbar {
+  justify-content: space-between;
+}
+
+.navbar__brand {
+  text-decoration: none;
+  color: var(--color-text-primary);
+  letter-spacing: -0.5px;
+}
+
+.navbar__actions {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.navbar__avatar {
+  width: 34px;
+  height: 34px;
+  background: var(--color-secondary);
+  color: var(--color-text-primary);
+  font-size: 14px;
+}
+
+.navbar__menu-paper {
+  background: var(--color-bg-paper);
+  border: 1px solid var(--color-divider);
+  border-radius: 16px;
+  margin-top: 8px;
+  min-width: 200px;
+}
+
+.navbar__menu-user {
+  opacity: 1 !important;
+  cursor: default;
+}
+
+.navbar__menu-name {
+  color: var(--color-text-primary);
+}
+
+.navbar__menu-email {
+  color: var(--color-text-secondary);
+}
+
+.navbar__divider {
+  border-color: var(--color-divider);
+}
+
+.navbar__menu-link {
+  color: var(--color-text-secondary);
+}
+
+.navbar__menu-link:hover {
+  color: var(--color-text-primary);
+  background: rgba(235, 231, 218, 0.08);
+}
+
+.navbar__menu-signout {
+  color: var(--color-error);
+}
+
+.navbar__menu-signout:hover {
+  background: rgba(255, 141, 141, 0.1);
+}
+
+.navbar__signin {
+  background: var(--color-primary);
+  color: var(--color-primary-contrast);
+  text-transform: none;
+  font-weight: 600;
+  border-radius: 16px;
+}
+
+.navbar__signin:hover {
+  background: rgb(235, 231, 218);
+}

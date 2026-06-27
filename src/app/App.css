@@ -1,0 +1,12 @@
+.app {
+  min-height: 100vh;
+  background: var(--color-bg-default);
+}
+
+.app__loading {
+  min-height: 100vh;
+  background: var(--color-bg-default);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

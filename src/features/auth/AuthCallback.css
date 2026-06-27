@@ -1,0 +1,8 @@
+.auth-callback {
+  min-height: 100vh;
+  background: var(--color-bg-default);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 16px;
+}
